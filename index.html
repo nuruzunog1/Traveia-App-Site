@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Traveia — Yakında App Store'da</title>
+<meta name="description" content="Traveia: ruh haline, ilgi alanlarına ve bütçene göre kişiselleştirilmiş seyahat destinasyonu önerileri sunan yapay zeka destekli seyahat uygulaması. Yakında App Store'da.">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #faf7f2;
+    color: #16233f;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .card {
+    max-width: 480px;
+    width: 100%;
+    text-align: center;
+  }
+  .logo {
+    width: 120px;
+    height: auto;
+    margin: 0 auto 8px;
+    display: block;
+  }
+  .wordmark {
+    font-size: 15px;
+    letter-spacing: 0.12em;
+    font-weight: 700;
+    color: #16233f;
+    margin-bottom: 36px;
+  }
+  .wordmark span {
+    color: #4a7fd8;
+    font-weight: 800;
+  }
+  h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    line-height: 1.3;
+  }
+  p.tagline {
+    font-size: 16px;
+    color: #5b6684;
+    line-height: 1.6;
+    margin-bottom: 28px;
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #eef3ff;
+    color: #4a7fd8;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 18px;
+    border-radius: 999px;
+    margin-bottom: 36px;
+  }
+  .badge::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #4a7fd8;
+    animation: pulse 1.8s infinite;
+  }
+  @keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+  }
+  .cta {
+    display: inline-block;
+    background: #16233f;
+    color: #faf7f2;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 14px 32px;
+    border-radius: 12px;
+    margin-bottom: 48px;
+    transition: opacity 0.2s;
+  }
+  .cta:hover { opacity: 0.85; }
+  .links {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    font-size: 13px;
+  }
+  .links a {
+    color: #5b6684;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  .links a:hover {
+    border-bottom-color: #5b6684;
+  }
+  footer {
+    margin-top: 40px;
+    font-size: 12px;
+    color: #a5adc4;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <img class="logo" src="traveia-logo.jpeg" alt="Traveia logo">
+    <div class="wordmark">TRAVEIA <span>APP</span></div>
+
+    <h1>Sana özel seyahat rehberin, çok yakında.</h1>
+    <p class="tagline">Ruh haline, ilgi alanlarına ve bütçene göre kişiselleştirilmiş destinasyon önerileri. Nereye gideceğini değil, ne hissettiğini söyle — gerisini Traveia halletsin.</p>
+
+    <div class="badge">App Store'da yakında</div>
+    <br>
+    <a class="cta" href="https://instagram.com/traveia.app" target="_blank" rel="noopener">Lansmanı kaçırma — Instagram'da takip et</a>
+
+    <div class="links">
+      <a href="privacy-policy.html">Gizlilik Politikası</a>
+      <a href="mailto:traveiapp.official@gmail.com">Destek</a>
+    </div>
+
+    <footer>&copy; 2026 Traveia</footer>
+  </div>
+</body>
+</html>
